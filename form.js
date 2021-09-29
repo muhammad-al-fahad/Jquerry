@@ -16,7 +16,7 @@ $(document).ready(function () {
           e.preventDefault();
           if(fnValidate){
           window.location.reload(true);
-          window.location.href = 'https://kapco.herokuapp.com/';
+          Browserlocation.href = 'https://kapco.herokuapp.com/';
           }
           else{
               alert('Try Again');
